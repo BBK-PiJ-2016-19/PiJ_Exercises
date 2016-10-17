@@ -1,4 +1,4 @@
-// Set of exercises for lecture 3
+// Set of exercises for Lecture 3
 
 //Exercise 2 - Calculator
 
