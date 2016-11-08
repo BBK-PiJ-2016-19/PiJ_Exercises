@@ -24,6 +24,20 @@ class UnitMatrix {
  }
 }
 
-UnitMatrix matrix = new UnitMatrix();
-matrix.setSize(2);
-matrix.print();
+
+println ""
+UnitMatrix matrix1 = new UnitMatrix();
+UnitMatrix matrix2 = new UnitMatrix();
+matrix1.setSize(2);
+matrix1.print();
+println "-----"
+println ""
+matrix2.setSize(3);
+matrix2.print();
+
+
+//Visibility
+// i --------> inside the outer and inner loop
+// j --------> inside the inner loop
+// size -----> inside the class
+// newSize --> inside the method setSize
