@@ -18,7 +18,7 @@ class Integer2 {
 	
 	boolean isOdd() {
 		if (this.value % 2 != 0) {
-			return false;
+			return true;
 		}
 	}
 	
@@ -46,7 +46,6 @@ print "The number you entered is "
 if (i2.isEven()) {
 	println "even.";
 } else if (i2.isOdd()) {
-	println "test"
 	println "odd.";
 } else {
 	println "undefined! Your code is buggy!";
