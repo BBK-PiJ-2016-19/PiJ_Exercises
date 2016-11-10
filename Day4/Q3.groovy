@@ -4,9 +4,9 @@
 
 //1st method: power(int, int) // Fazer à mão!
 int power(int base, int exponent) { 
-  int result;
-  result = base ** exponent;
-  return result;
+	int result;
+	result = base ** exponent;
+	return result;
 }
 
 //2nd method: power2(int)
@@ -16,8 +16,8 @@ int power2(int exponent) {
 	return result;
 }
 
-//3rd method: binaryToDecimal(in)
-int binaryToDecimal (String number) {
+//3rd method: binaryToDecimal(String)
+int binaryToDecimal(String number) {
 
 	int result = 0;
 	
@@ -27,6 +27,13 @@ int binaryToDecimal (String number) {
 	
 	return result;
 }
+
+//4th method: decimalToBinary(int) 
+String decimalToBinary(int number) {
+	// To implement
+}	
+
+
 
 
 //Testing the binaryToDecimal()
