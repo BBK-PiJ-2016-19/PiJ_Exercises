@@ -6,7 +6,7 @@ public class MobilePhone extends OldPhone {
 		System.out.println(greeting);
 	}
 	
-	public void ringAlarm(String sound) {
+	public void ringAlarm(String alarm) {
 		System.out.println(sound);
 	}
 	
@@ -14,7 +14,7 @@ public class MobilePhone extends OldPhone {
 		System.out.println(game);
 	}
 	
-	public void printLastNumbers() {
+	public void printLast10Numbers() {
 		// need to be implemented
 	}
 }
