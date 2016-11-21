@@ -1,11 +1,12 @@
 public class SmartPhone extends MobilePhone {
 	
 	public void browseWeb(String url) {
-		
+		System.out.println(url);
 	}
 	
 	public String findPosition() {
-		return "41°24'12.2";
+		String position = "41°24'12.2";
+		return position;
 	}
 	
 }
