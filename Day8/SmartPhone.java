@@ -5,7 +5,7 @@ public class SmartPhone extends MobilePhone {
 	}
 	
 	public String findPosition() {
-		return System.out.println("41°24'12.2"N 2°10'26.5"E");
+		return "41°24'12.2";
 	}
 	
 }
