@@ -7,6 +7,7 @@ public class PhoneLauncher {
 	
 	public void launch() {
 		// code creating and using SmartPhone here...
-		
+		SmartPhone smtPhone = new SmartPhone();
+		smtPhone.call("075234567");
 	}
 }
