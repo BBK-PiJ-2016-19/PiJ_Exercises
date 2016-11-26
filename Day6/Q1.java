@@ -44,13 +44,17 @@ public class Q1 {
 		// Printing each element of the list after their addition
 		System.out.println("");
 		hospitalManager.printEachPatientFromList();
+		System.out.println("");
+		System.out.println(Integer.toString(Patient.getListLength())); //var estatica e como se fosse global
 		
 		// Deleting elements
 		hospitalManager.removePatient("Mary");
 		
 		System.out.println("");
 		hospitalManager.printEachPatientFromList();
-	
+		System.out.println("");
+		System.out.println(Integer.toString(Patient.getListLength())); //verificar melhor o conceito de boxing/autoboxing.
+		
 	}
 	
 
