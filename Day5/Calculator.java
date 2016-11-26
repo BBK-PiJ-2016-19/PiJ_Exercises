@@ -1,12 +1,14 @@
 class Calculator{
 	
-	/* private int number1;
+	private int number1;
 	private int number2;
 	
+	/*
 	public Calculator(int num1, int num2) {
 		number1 = num1;
 		number2 = num2;
-	} */
+	} 
+	*/
 	
 	public void add(int num1, int num2) {
 		int addition;
@@ -14,6 +16,7 @@ class Calculator{
 		System.out.println("The result of the addition is: " + Integer.toString(addition));
 	}
 	
+	/*
 	public void subtract(int num1, int num2) {
 		int subtraction;
 		subtraction = num1 - num2;
@@ -31,6 +34,6 @@ class Calculator{
 		division = num1 / num2;
 		System.out.println("The result of the division is: " + division);
 	}
-	
+	*/
 	//Need to do the modulus(int, int) method!
 }
