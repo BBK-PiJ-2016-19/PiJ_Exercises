@@ -2,7 +2,7 @@ public class HospitalManager {
 	
 	//fields
 	private Patient firstPatient = null; //? Why we don't have to initialize this fild of a complex type?!
-										// Pq a ideia n é criar um obhj novo, é usar o mesmo!
+										// Pq a ideia n é criar um obj novo, é usar o mesmo!
 	
 	
 	// member method
@@ -57,6 +57,28 @@ public class HospitalManager {
 			current = current.getNextPatient();
 		}
 		return false;
+	}
+	
+	public int listLength() {
+		if (firstPatient == null) {
+			System.out.println("This list is empty.");
+			return 0;
+		}
+		
+		if (firstPatient.getNextPatient() == null) {
+			System.out.println("This list has only one element.");
+			return 1;
+		}
+		
+		//return 2;
+		
+		Patient current = firstPatient;
+		int count = 0;
+		while (current != null) {
+			count += 1;
+			current = current.getNextPatient();
+		}
+		return count;
 	}
 
 }
