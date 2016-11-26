@@ -5,8 +5,6 @@ public class Patient {
 	private int age;
 	private String illness;
 	private Patient nextPatient;
-	private static int patientCount = 0;
-	
 	
 	//constructor
 	public Patient(String name, int age, String illness) {
@@ -14,9 +12,7 @@ public class Patient {
 		this.age = age;
 		this.illness = illness;
 		this.nextPatient = null; // Pointer to another patient (to come!)
-		patientCount += 1;
 	}
-	
 	
 	//other methods - getters and setters
 	public String getName() {
@@ -37,11 +33,6 @@ public class Patient {
 	
 	public void setNextPatient(Patient nextPatient) {
 		this.nextPatient = nextPatient;
-	}
-	
-	// method that calculates the length of the list of patients
-	public static int getListLength() {
-		return patientCount;
 	}
 	
 }
